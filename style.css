@@ -4,16 +4,41 @@
   box-sizing: border-box;
 }
 
-.hbox {
+body {
+  padding: 1rem;
+}
+
+h1, 
+h2 {
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+}
+
+.hbox-container {
   display: flex;
 }
 
-.project {
+.hbox {
   margin: 1rem;
   padding: 1rem;
+  width: min-content;
   background-color: aliceblue;
 }
 
-.project img {
-  width: 12rem;
+.hbox img {
+  width: 16rem;
+  display: block;
+}
+
+.hbox h4 {
+  text-align: center;
+}
+
+.hbox ul {
+  margin-left: 1rem;
 }
