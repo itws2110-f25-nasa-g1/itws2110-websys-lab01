@@ -8,8 +8,7 @@ body {
   padding: 1rem;
 }
 
-h1, 
-h2 {
+header {
   text-align: center;
 }
 
@@ -21,6 +20,8 @@ h2 {
 
 .hbox-container {
   display: flex;
+  width: min-content;
+  margin: auto;
 }
 
 .hbox {
@@ -30,15 +31,19 @@ h2 {
   background-color: aliceblue;
 }
 
+.hbox h4 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
 .hbox img {
   width: 16rem;
   display: block;
-}
-
-.hbox h4 {
-  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .hbox ul {
   margin-left: 1rem;
+  font-size: 0.8rem;
 }
