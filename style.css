@@ -18,6 +18,11 @@ header {
   top: 2rem;
 }
 
+.scroll-box {
+  overflow-x: auto;
+  width: 100%;
+}
+
 .hbox-container {
   display: flex;
   width: min-content;
