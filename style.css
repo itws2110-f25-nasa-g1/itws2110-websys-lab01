@@ -17,6 +17,7 @@ header {
 }
 
 header h2 {
+  font-size: larger;
   font-style: italic;
 }
 
@@ -36,8 +37,8 @@ section h3 {
   position: absolute;
   left: 2rem;
   top: 2rem;
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .scroll-box {
