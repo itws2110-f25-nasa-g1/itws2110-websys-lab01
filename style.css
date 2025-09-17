@@ -7,7 +7,7 @@
 header {
   text-align: center;
   background-color: lightblue;
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
 
 header h2 {
@@ -30,6 +30,8 @@ section h3 {
   position: absolute;
   left: 2rem;
   top: 2rem;
+  width: 100px;
+  height: 100px;
 }
 
 .scroll-box {
