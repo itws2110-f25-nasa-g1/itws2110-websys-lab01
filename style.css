@@ -10,6 +10,10 @@ header {
   padding: 2rem 1rem 1rem 1rem;
 }
 
+header h2 {
+  font-style: italic;
+}
+
 section {
   padding: 0 2rem;
 }
