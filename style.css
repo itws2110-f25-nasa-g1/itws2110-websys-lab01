@@ -10,11 +10,19 @@ header {
   padding: 2rem 1rem 1rem 1rem;
 }
 
+header h2 {
+  font-style: italic;
+}
+
+header h4 {
+  padding-top: 0.5rem;
+}
+
 section {
   padding: 0 2rem;
 }
 
-h3 {
+section h3 {
   padding-top: 1.5rem;
 }
 
