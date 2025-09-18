@@ -102,3 +102,12 @@ section h3 {
   margin-right: auto;
   margin-bottom: 1rem;
 }
+
+ul li {
+  padding: 0.5em 0em;
+}
+
+ul li.not-first-line {
+  padding: 0;
+  margin-left: 1.5em;
+}
