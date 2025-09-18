@@ -75,3 +75,30 @@ section h3 {
   margin-left: 1rem;
   font-size: 0.8rem;
 }
+
+.resume-hbox {
+  font-size: large;
+  margin: 1rem;
+  padding: 1rem;
+  width: 22rem;
+  background-color: aliceblue;
+}
+
+.resume-hbox h2 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.hbox ul {
+  margin-left: 2rem;
+  font-size: 0.8rem;
+}
+
+.resume-hbox img {
+  display: block;
+  width: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
