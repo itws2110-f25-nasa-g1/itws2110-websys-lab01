@@ -78,6 +78,12 @@
          width: 1100px;
       }
 
+      #skills {
+         float: left;
+         padding-left: 70px;
+         width: 1100px;
+      }
+
       #profile {
          float: left;
          padding-left: 70px;
@@ -103,11 +109,16 @@
 
 <body>
    <h1><a href="https://github.com/dcgruber">Carli Gruber</a></h1>
-   <ul id="contactInfo">
-      <li>RAHPs A</li>
-      <li>Troy, New York 12180</li>
-      <li>grubed@rpi.edu</li>
-   </ul>
+
+   <div class="vcard" id="contactInfo">
+      <span class="fn">Carli Gruber</span>
+      <a href="mailto:grubed@rpi.edu" class="email">grubed@rpi.edu</a>
+      <div class="adr">
+         <span class="street-address">RAHPs A</span><br>
+         <span class="locality">Troy</span>, <span class="region">New York</span> <span class="postal-code">12180</span>
+      </div>
+   </div>
+
    <h2>PROFILE</h2>
    <ul class="profile" id="profile">
       <li><em>Motivated, dedicated community member</em></li>
@@ -168,15 +179,35 @@
             <li> - Participated in the packing and distribution of vegetables from Drumlin Farm</li>
             <li> - Engaged with community members and performed community service</li>
       </ul>
+
+      <div>
+         <img src="/pictures/people/carli_v2.jpg" width="200" alt="Carli Gruber">
+      </div>
+
    </div>
 
    <div>
       <h2>EDUCATION</h2>
       <ul class="no_bullets" id="education">
-         <li><strong>RPI (Current)</strong></li>
-            <li><strong><em>Undergraduate, CS / ITWS</em></strong></li>
+         <li><strong>RPI (August 2024 - Current)</strong></li>
+            <li><em>Undergraduate, CS / ITWS</em></li>
+         <li>--------------------------------------------------------------------</li>
          <li><strong>Wayland High School</strong></li>
-            <li><strong><em>Graduate, High Honors</em></strong></li>
+            <li><em>Graduate, High Honors (June 2024)</em></li>
+      </ul>
+   </div>
+
+   <div>
+      <h2>SKILLS</h2>
+      <ul class="no_bullets" id="skills">
+         <li>Willingness to learn</li>
+         <li>Leadership skills</li>
+         <li>Understanding of basic computer systems</li>
+         <li>Secret level clearance</li>
+         <li>Dedication to tasks</li>
+         <li>Basic cybersecurity knowledge</li>
+         <li>Technical support expertise</li>
+         <li>Skilled martial artist</li>
       </ul>
    </div>
 
