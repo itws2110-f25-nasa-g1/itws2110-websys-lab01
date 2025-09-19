@@ -11,13 +11,13 @@
       }
 
       body {
-         overflow: scroll;
-         width: 50%;
+         overflow: auto;
+         max-width: 900px;
          margin-left: auto;
          margin-right: auto;
          font-family: 'Times New Roman', Times, serif;
          padding: 10px;
-         background-color:silver;
+         background-color: silver;
       }
 
       h1 {
@@ -107,7 +107,7 @@
       }
 
       #exp {
-         height: 450px;
+         height: 400px;
       }
 
       #edu {
@@ -131,12 +131,29 @@
          padding-top: 15px;        
       }
 
+      #photo {
+         width: 12rem;
+         max-width: 40%;
+         height: auto;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+      }
+
+      #header {
+         text-align:center; 
+         padding-bottom:10px
+      }
+
    </style>
 </head>
 
 <body>
    <div id="all_content">
-      <h1>Sherlyn Wu</h1>
+      <div class="header">
+         <img id="photo" src="../pictures/people/sherlyn.jpg" alt="Sherlyn Wu">
+         <h1>Sherlyn Wu</h1>
+      </div>
       <ul id="contactInfo">
          <li>1999 Burdett Avenue, Waite 302</li>
          <li>Troy, New York 12180</li>
@@ -206,7 +223,7 @@
          </div>
       </div>
 
-      <div id = "education">
+   <div id = "education">
          <h2 id="edu">EDUCATION</h2>
          <div>
             <div class="section">
