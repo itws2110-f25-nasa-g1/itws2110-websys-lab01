@@ -44,3 +44,8 @@
   - validated the site's HTML and CSS (everything looks good)
   - made sure I used semantic tags as much as possible (h tags, sections, ul and li)
     - decided not to use a header tag since all of the header information is already displayed as part of the .vcard div, and the only thing I would put in the header is my name
+
+- Sherlyn
+ - I worked on the graphics (photo standardization, logo) and some CSS styling.
+ - This assignment was a good warm-up to get back to frontend web development.
+ - Working together in person allowed us to resolve issues and discuss ideas very quickly.
